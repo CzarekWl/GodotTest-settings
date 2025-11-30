@@ -193,6 +193,7 @@ public partial class SettingsManager : Node
 
     public void ApplyAllSettings()
     {
+		
         // Audio
         SetMasterVolume(Sound.MasterVolume);
         SetMusicVolume(Sound.MusicVolume);
